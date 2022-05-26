@@ -1,0 +1,35 @@
+@media screen and (max-width:575px){
+    .about>div>p:nth-of-type(2){
+        column-count: 1;
+    }
+    .call{
+        height: 80vh;
+    }
+}
+@media screen and (min-width:576px){
+    .about>div>p:nth-of-type(2){
+        column-count: 1;
+    }
+    .call{
+        height: 80vh;
+    }
+}
+@media screen and (min-width:768px){
+
+}
+@media screen and (min-width:992px){
+    .about>div>p:nth-of-type(2){
+        column-count: 2;
+        column-gap: 50px;
+    }
+    .call{
+        height: 60vh;
+    }
+}
+@media screen and (min-width:1200px){
+
+}
+@media screen and (min-width:1400px){
+
+}
+
